@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-size: cover;
+    font-family: 'Merry Christmas Flake', sans-serif;
+    font-family: 'Merry Christmas Star', sans-serif;
+
+}
+
+h2{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: lightgreen;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 40px red;
+    }
+    
+    to{
+        box-shadow: 1px 1px 40px lightgreen;
+    }
+}
